@@ -1,0 +1,89 @@
+.cc-pretty-preview .markdown-preview-section hr {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.cc-pretty-preview .markdown-preview-view h1 {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+.cc-pretty-preview .markdown-preview-view h2 {
+  margin-top: 0;
+  margin-bottom: 0.25em;
+}
+
+.cc-pretty-preview .markdown-preview-view h3 {
+  margin-top: 0;
+  margin-bottom: 0.25em;
+}
+
+.cc-pretty-preview .markdown-preview-view h4 {
+  margin-top: 0;
+  margin-bottom: 0.25em;
+}
+
+.cc-pretty-preview .markdown-preview-view h5 {
+  margin-top: 0;
+  margin-bottom: 0.25em;
+}
+
+.cc-pretty-preview .markdown-preview-view h6 {
+  margin-top: 0;
+  margin-bottom: 0.25em;
+}
+
+.cc-pretty-preview .markdown-preview-view p {
+  margin-top: 0em;
+  margin-bottom: 1.2em;
+}
+
+.cc-pretty-preview .markdown-preview-section div:not([data-tag-name^="h"]) + div[data-tag-name="hr"] > hr {
+  margin-top: calc(var(--editor-line-height-rem) * -1);
+}
+
+
+/* Text Highlight Background color */
+ .theme-light {
+--text-highlight-bg: #d9edfa;
+}
+
+/* To Style the quote in Editor */
+
+.cm-s-obsidian span.cm-quote {
+  font-style: normal;
+    position: relative;
+  color: #114F12;
+  background-color: #E6F4E9;
+  font-size: inherit;
+  padding: .3em .4em;
+  border-radius: 5px;
+  margin: 0px -4px;
+}
+
+.cc-pretty-editor .cm-formatting-quote:before {
+  display: inline-block;
+ margin-right: -0.6em;
+  opacity: 0.9;
+  width: 1rem;
+  height: 0rem;
+}
+
+/* To Style the quote in Preview */
+/* Hide Quote icon in preview*/
+.cc-pretty-preview .markdown-preview-section blockquote:before {
+	display: none;
+}
+
+.cc-pretty-preview .markdown-preview-section blockquote {
+      font-style: normal;
+    position: relative;
+  color: #114F12;
+    border-left: 6px solid #49B856;
+  background-color: #E6F4E9;
+  font-size: inherit;
+  padding: 1em .8em .1em .8em;
+  border-radius: 0px 6px 6px 0px;
+  margin: 15px 6px;
+  
+}

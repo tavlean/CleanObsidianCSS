@@ -1,0 +1,176 @@
+/* == UI Changes == */
+
+/* Little left ribbon padding */
+.workspace-ribbon,
+.hider-frameless .workspace-ribbon.mod-left.is-collapsed {
+    padding: 12px 18px 24px 18px;
+    background-color: hsl(210, 15%, 90%);
+}
+
+/* Margin between ribbon icons */
+.side-dock-ribbon-action {
+    margin-top: 24px;
+}
+
+/* Ribbon icons size */
+.side-dock-ribbon-action > svg {
+    width: 20px;
+    height: 20px;
+}
+
+/* Padding of main Sidebars */
+.hider-frameless .workspace-split.mod-left-split > div.workspace-tabs {
+    padding: 40px 0 0 16px;
+}
+
+/* Logo / Title on Sidebar */
+.workspace-split.mod-left-split > div.workspace-tabs::before {
+    content: "Artusion";
+    font-family: Bear Sans UI Headline;
+    font-weight: 500;
+    /* color: hsl(359, 10%, 95%); */
+    font-size: 22px;
+    text-transform: uppercase;
+    margin: 0 0 15px 15px;
+    letter-spacing: 9px;
+}
+
+/* File Manager, Search & Star Tabs */
+.workspace-tab-header {
+    padding: 6px 22px;
+}
+
+/* Header Tabs Background color */
+.mod-left-split .workspace-tab-container-inner {
+    background-color: hsl(210, 15%, 90%);
+}
+
+/* 3 Buttons - New File, New Folder & Sort */
+.nav-action-button {
+    padding: 6px 18px;
+    margin: 0 11px 8px 0;
+    border-radius: 4px;
+    box-shadow: 0px 1px 8px rgb(0 0 0 / 6%);
+}
+
+/* Margin between buttons and folders */
+.nav-files-container {
+    margin-top: 15px;
+}
+
+/* Folder */
+.nav-file-title-content,
+.nav-folder-title-content {
+    padding: 8px 0 8px 0px;
+    font-size: 15px;
+}
+
+/* Folder Title */
+.nav-folder-title-content {
+    padding-left: 8px;
+    font-size: 16px;
+}
+
+/* Add background to folder title */
+.nav-folder-title {
+    padding: 4px 10px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    background-color: hsl(210, 15%, 90%);
+}
+
+/* Rename Field */
+.nav-file-title-content.is-being-renamed,
+.nav-folder-title-content.is-being-renamed {
+    padding: 8px 8px;
+    border-radius: 8px;
+    background-color: inherit;
+    box-shadow: none;
+}
+
+/* Rename Field Hover */
+.nav-file-title-content.is-being-renamed:hover,
+.nav-folder-title-content.is-being-renamed:hover {
+    background-color: inherit;
+    box-shadow: none;
+}
+
+.nav-file-title-content.is-being-renamed::selection,
+.nav-folder-title-content.is-being-renamed::selection {
+    background-color: hsl(210, 18%, 30%);
+    color: white;
+}
+
+.nav-folder.is-collapsed {
+    margin-bottom: 20px;
+}
+
+/* Decreased left padding on file names */
+.nav-file {
+    padding: 0 5px 0px 15px;
+}
+
+/* Hides an empty folder title */
+.nav-folder.mod-root > .nav-folder-title:nth-child(1) {
+    /* background-color: inherit; */
+    display: none;
+}
+
+/* Limits the background of folder name to the visual width */
+.nav-folder {
+    max-width: 96%;
+}
+
+.nav-folder-children {
+    padding-bottom: 15px;
+}
+
+/* == Center Area == */
+
+/* Hides border/dividing line below header */
+.view-header {
+    box-shadow: none;
+}
+
+/* Border shows up when hovered */
+.view-header:hover {
+    box-shadow: 0px 1px 3px rgb(0 0 0 / 8%);
+    transition: all 250ms;
+}
+
+/* Lightens the "drag to rearrange" icon */
+.view-header-icon {
+    color: hsl(0, 0%, 95%);
+}
+
+/* Becomes darker when hovered */
+.view-header-icon:hover {
+    color: hsl(0, 0%, 50%);
+}
+
+/* bolder title*/
+.view-header-title {
+    color: #444444;
+    font-weight: 600;
+}
+
+/* Adds ".md" to title so it looks like a filename */
+.view-header-title::after {
+    content: ".md";
+}
+
+/* Reduced padding of main content area */
+.markdown-source-view.mod-cm6 .cm-scroller {
+    padding: 1em 2em;
+}
+
+/* Remove gradient at top of navigation area */
+.theme-dark .nav-files-container {
+    background: none;
+}
+
+@media (max-width: 760px) {
+    .markdown-source-view.mod-cm6 .cm-scroller {
+        padding: 1em 0.5em;
+    }
+}

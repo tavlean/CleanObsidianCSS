@@ -1,0 +1,143 @@
+/* Typography & Colors */
+
+/* Text color */
+body {
+    color: #444444;
+    --text-normal: #444444;
+}
+
+.markdown-preview-view {
+    color: #444444;
+    line-height: 1.8;
+}
+
+html {
+    --editor-font-weight: 500 !important;
+}
+
+/* Color of divider */
+hr {
+    border-color: #d9d9d9;
+}
+
+/* No Underline on links */
+span.cm-hmd-internal-link span.cm-underline {
+    text-decoration: none !important;
+}
+
+/* No Underline on links */
+.internal-link,
+.cm-url {
+    text-decoration: none !important;
+}
+
+span.cm-hmd-internal-link:hover {
+    text-decoration: none !important;
+}
+
+/* Symbol for External URLs */
+.cm-url::after {
+    content: "↗︎";
+}
+
+/* Change quote text from italics to normal & Colors */
+.cm-quote {
+    font-style: normal !important;
+    color: #444444 !important;
+}
+
+/* Quote left border */
+.markdown-source-view.mod-cm6.is-live-preview .HyperMD-quote {
+    border: 0 solid #dd4c4f;
+    border-left-width: 5px;
+}
+
+/* List Item Spacing */
+
+/* .cm-s-obsidian .HyperMD-list-line {
+    padding-bottom: 0.5em;
+} */
+
+/* Custom Bullet Style */
+span.list-bullet::after {
+    content: "•" !important;
+    font-size: 30px;
+    height: 0px !important;
+    /* color: #dd4c4f; */
+    padding-right: 10px;
+    font-weight: 600;
+}
+
+/* Change bullet and number color in Reading view */
+::marker {
+    color: #dd4c4f;
+}
+
+/* Color for all markers/bullets and weight for numbers */
+.markdown-source-view.mod-cm6.cm-s-obsidian span.cm-formatting-list {
+    color: #dd4c4f;
+    font-weight: 500;
+}
+
+/* Number Color in Reading View */
+
+/* Hashtag BG */
+.markdown-source-view.mod-cm6.cm-s-obsidian span.cm-hashtag {
+    background-color: #e4e5e6;
+}
+
+/* The # Symbol */
+.markdown-source-view.mod-cm6.cm-s-obsidian .cm-hashtag-begin {
+    color: #888888 !important;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+    padding: 5px 0 5px 10px;
+}
+
+/* Hashtag Text */
+.markdown-source-view.mod-cm6.cm-s-obsidian .cm-hashtag-end {
+    color: #444 !important;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+    padding: 4px 10px 3px 0;
+}
+
+/* Highlight */
+.cm-formatting.cm-formatting-highlight.cm-highlight + .cm-highlight {
+    border-radius: 6px !important;
+    padding: 5px 10px;
+}
+
+/* == DARK MODE == */
+
+/* Change Accent Color in Dark Mode*/
+.theme-dark {
+    --accent-h: 205 !important;
+    --accent-s: 70% !important;
+    --accent-l: 90% !important;
+}
+
+/* Text Color */
+.theme-dark .markdown-preview-view {
+    color: #dfe0e0;
+}
+
+body.theme-dark {
+    color: #dfe0e0;
+    --text-normal: #dfe0e0;
+}
+
+/* Link color */
+.theme-dark .cm-hmd-internal-link {
+    color: #44a2e5 !important;
+}
+
+/* Divider color */
+.theme-dark hr {
+    border-color: #525354;
+}
+
+/* Bullet Color */
+.theme-dark span.list-bullet::after {
+    color: #44a2e5;
+}

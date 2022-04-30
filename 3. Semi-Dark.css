@@ -1,0 +1,110 @@
+/* == Semi-Dark Mode == */
+
+/* Little Left Ribbon BG Color*/
+.workspace-ribbon,
+.hider-frameless .workspace-ribbon.mod-left.is-collapsed {
+    background-color: hsl(210, 20%, 16%);
+}
+
+/* Ribbon icons color */
+.side-dock-ribbon-action,
+.mod-left-split .workspace-ribbon-collapse-btn {
+    color: hsl(180, 2%, 88%);
+}
+
+/* Main Sidebar BG Color */
+.mod-left-split {
+    background-color: hsl(210, 20%, 13%);
+}
+
+/* Logo Color on Sidebar */
+.workspace-split.mod-left-split > div.workspace-tabs::before {
+    color: hsl(359, 10%, 95%);
+}
+
+/* Inactive header tab's icon color */
+.mod-left-split .workspace-tab-header {
+    color: hsl(180, 2%, 75%);
+}
+
+/* Header tabs BG Color */
+.mod-left-split .workspace-tab-container-inner {
+    background-color: hsl(210, 15%, 20%);
+}
+
+.view-header-icon:hover,
+.workspace-tab-header:hover,
+.side-dock-ribbon-tab:hover,
+.side-dock-ribbon-action:hover,
+.workspace-ribbon-collapse-btn:hover {
+    color: hsl(180, 2%, 65%);
+}
+
+/* Active Header Tab Color */
+.mod-left-split .workspace-tab-header.is-active,
+.mod-left-split .workspace-tab-header.is-active:hover {
+    color: hsl(240, 1%, 78%);
+    background-color: hsl(210, 12%, 32%);
+}
+
+/* Padding between tabs and buttons */
+.mod-left-split .workspace-tab-header-container {
+    padding: 5px 10px 18px;
+}
+
+/* Buttons */
+.mod-left-split .nav-action-button {
+    color: hsl(180, 2%, 88%);
+    background-color: hsl(210, 12%, 28%);
+    box-shadow: none;
+}
+
+/* Removes the white gradient thing on top of the navigation list */
+.nav-files-container,
+.item-list,
+.mod-left-split .search-result-container {
+    background: none;
+}
+
+/* Light text */
+.nav-folder,
+.nav-file,
+.mod-left-split .search-results-children {
+    --text-normal: hsl(180, 2%, 88%);
+}
+
+/* Folder Title BG Color */
+.nav-folder-title {
+    background-color: hsl(210, 18%, 17%);
+}
+
+/* Folder Title BG on Hover */
+body:not(.is-grabbing) .nav-file-title:hover .nav-folder-collapse-indicator,
+body:not(.is-grabbing) .nav-file-title:hover,
+body:not(.is-grabbing) .nav-folder-title:hover .nav-folder-collapse-indicator,
+body:not(.is-grabbing) .nav-folder-title:hover {
+    background-color: hsl(210, 12%, 24%);
+}
+
+/* Rename Field Selection */
+.nav-file-title-content.is-being-renamed::selection,
+.nav-folder-title-content.is-being-renamed::selection {
+    background-color: hsla(210, 12%, 100%, 75%);
+    color: hsl(210, 12%, 10%);
+}
+
+/* Search result items BG color */
+.search-result-file-match:not(.search-info-more-matches) {
+    background-color: hsl(210, 18%, 17%);
+}
+
+/* Collapse Icon Color */
+body:not(.cc-no-custom-icons) .collapse-icon > svg,
+body:not(.cc-no-custom-icons) .style-settings-collapse-indicator > svg {
+    color: hsl(180, 2%, 88%);
+}
+
+/* Dark icons for files */
+body:not(.cc-no-file-icons) .nav-file-title-content::before {
+    background-image: url(data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgZmlsbD0ibm9uZSIgdmlld0JveD0iMCAwIDY0IDY0Ij48cGF0aCBmaWxsPSIjNTg1ODU4IiBkPSJNOS43NzMgNC45NDhjMC0xLjA2Ny44NjUtMS45MzIgMS45MzItMS45MzJoMjQuMTZjMi4xMDcgMCAzLjQwNSAxLjM2OCAzLjc2NCAxLjgwMi4wNy4wODUuMTQyLjE3LjIyLjI0OGwxMi40NCAxMi40NC4wMS4wMWMuMTAzLjEwMyAxLjkyOCAxLjk1NiAxLjkyOCAzLjg2MXYzNy42OUExLjkzMyAxLjkzMyAwIDAxNTIuMjk1IDYxaC00MC41OWExLjkzMyAxLjkzMyAwIDAxLTEuOTMyLTEuOTMzVjQuOTQ4eiIvPjxwYXRoIHN0cm9rZT0iIzAwMCIgc3Ryb2tlLW9wYWNpdHk9Ii4yIiBzdHJva2Utd2lkdGg9IjMiIGQ9Ik0xMS43MDYgMS41MTZ2MS41LTEuNWEzLjQzMyAzLjQzMyAwIDAwLTMuNDMzIDMuNDMydjU0LjEyYTMuNDMzIDMuNDMzIDAgMDAzLjQzMiAzLjQzMmg0MC41OWEzLjQzMyAzLjQzMyAwIDAwMy40MzItMy40MzNoLTEuNSAxLjVWMjEuMzc3YzAtMS4zOTEtLjY0Ny0yLjYzMS0xLjE3Mi0zLjQzYTEwLjAyIDEwLjAyIDAgMDAtMS4xOTUtMS40OTFzMCAwIDAgMGwtLjAwNy0uMDA3LS4wMDMtLjAwMy0xMi40NC0xMi40NHMwIDAgMCAwYTIuMjI1IDIuMjI1IDAgMDEtLjEyNS0uMTQ0bC0xLjE1Ni45NTYgMS4xNTYtLjk1NmMtLjQ1NC0uNTUtMi4xMzYtMi4zNDYtNC45Mi0yLjM0NkgxMS43MDdoMHoiLz48cGF0aCBmaWxsPSIjN0I3QjdCIiBkPSJNMzcuNzc3IDMuNDJ2MTQuMDg1YzAgMS4wNzEuODYyIDEuOTMzIDEuOTMzIDEuOTMzaDEzLjk3OWE3LjM2NyA3LjM2NyAwIDAwLTEuMzk3LTEuOTMzTDM5LjcyOSA0Ljk0MmMtLjYwOS0uNzctMS4yODYtMS4yMzYtMS45MzMtMS41MjFsLS4wMi0uMDAxeiIvPjxwYXRoIGZpbGw9IiM3QjdCN0IiIGQ9Ik0zOS43MSAyMi4zMzdhNC44MjggNC44MjggMCAwMS00LjgzMy00LjgzMlYzbC45ODkuMDE1YzEuMDYxIDAgMS45MS40MDUgMS45MS40MDV2MTQuMDg1YzAgMS4wNzEuODYzIDEuOTMzIDEuOTM0IDEuOTMzaDEzLjk3OXMuNTM4Ljk3My41MzggMS45Mzl2Ljk2SDM5LjcxeiIvPjxnPjxwYXRoIGZpbGw9IiNFMEUwRTAiIGQ9Ik0zMy4yNzQgMzQuODQ0bC00LjgwNy0xMy4wNkgyNi4xMWwtNC43ODQgMTIuOTkzYy0uNjUyIDEuNzk3LS45MzIgMi4wNjYtMi40MDQgMi4yMzVWMzhoNS40MDJ2LS45ODhjLTEuNzk3LS4yMjUtMi4wMS0uNTI4LTEuNDQ4LTIuMTlsLjc5Ny0yLjI5MWg1LjY5NGwuODA4IDIuMjljLjU3MyAxLjY1Mi4zMzcgMS45NjYtMS40NDggMi4xOVYzOGg2LjkxOHYtLjk4OGMtMS40MDQtLjE2OS0xLjczLS40MzgtMi4zNy0yLjE2OHptLTkuMTg3LTMuNTI2bDIuNDE1LTcuMDA4IDIuNDQ4IDcuMDA4aC00Ljg2M3pNMTcgNDRoMzB2M0gxN3pNMTcgNTFoMzB2M0gxN3oiLz48L2c+PC9zdmc+);
+}
