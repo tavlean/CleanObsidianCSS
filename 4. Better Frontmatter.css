@@ -1,0 +1,47 @@
+/* Applies to all of front-matter */
+.is-live-preview .cm-line .cm-hmd-frontmatter {
+    font-family: Bear Sans UI;
+    text-transform: capitalize;
+}
+
+/* Applies to front-matter variable when inactive (cursor not on the line) */
+.is-live-preview .cm-line:not(.cm-active) > .cm-hmd-frontmatter.cm-atom {
+    color: hsl(0, 0%, 20%);
+}
+
+/* Applies to front-matter variable when active (cursor on the line) */
+.is-live-preview .cm-line .cm-hmd-frontmatter.cm-atom {
+    font-weight: 700;
+    color: hsl(0, 0%, 20%);
+}
+
+/* Colon after variable when inactive (because we hide all meta symbols including colon and commas when inactive) */
+.is-live-preview .cm-line:not(.cm-active) .cm-hmd-frontmatter.cm-atom::after {
+    content: ":";
+}
+
+/* Applies to Values */
+.is-live-preview
+    .cm-line:not(.cm-active)
+    > .cm-hmd-frontmatter:not(.cm-meta):not(.cm-atom) {
+    color: hsl(0, 0%, 30%);
+    border-bottom: 2px solid hsl(0, 0%, 85%);
+}
+
+/* Period after values, to separate values (specially when the value is more than one word) */
+.is-live-preview
+    .cm-line:not(.cm-active)
+    > .cm-hmd-frontmatter:not(.cm-meta):not(.cm-atom)::after {
+    content: ".";
+}
+
+/* Hides triple dashes and meta symbols like brackets, colons, commas when inactive */
+.is-live-preview .cm-line:not(.cm-active) .cm-hmd-frontmatter.cm-def,
+.is-live-preview .cm-line:not(.cm-active) .cm-hmd-frontmatter.cm-meta {
+    visibility: hidden;
+}
+
+/* Shows triple dashes and metadata when active */
+.is-live-preview .cm-line .cm-hmd-frontmatter.cm-def .cm-selection {
+    visibility: visible;
+}
