@@ -6,7 +6,7 @@ Custom CSS for a cleaner and prettier [Obsidian](https://obsidian.md)
 
 <img width="1800" alt="Ribbon Only" src="https://user-images.githubusercontent.com/71072795/154007346-3deb3bf5-12e6-4d8f-ba1d-9fe6626afe83.png">
 
-<img width="1547" alt="Front Matter" src="https://user-images.githubusercontent.com/71072795/168332850-ce7fba64-523e-4511-b024-835ddefe9c3a.png">
+![YAML Front-matter](https://user-images.githubusercontent.com/71072795/168333775-ad820b5a-b19a-422b-b2ec-069d43868688.png)
 
 ## How to Install.
 ### CSS
