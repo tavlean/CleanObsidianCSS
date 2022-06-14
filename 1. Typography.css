@@ -104,23 +104,23 @@ span.list-bullet::after {
 
 /* Hashtag BG */
 .markdown-source-view.mod-cm6.cm-s-obsidian span.cm-hashtag {
-    background-color: #e4e5e6;
+    background-color: hsl(210, 4%, 92%);
 }
 
 /* The # Symbol */
 .markdown-source-view.mod-cm6.cm-s-obsidian .cm-hashtag-begin {
     color: #888888 !important;
-    border-top-left-radius: 24px;
-    border-bottom-left-radius: 24px;
-    padding: 2px 0 3px 10px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    padding: 2px 0 3px 6px;
 }
 
 /* Hashtag Text */
 .markdown-source-view.mod-cm6.cm-s-obsidian .cm-hashtag-end {
     color: #444 !important;
-    border-top-right-radius: 24px;
-    border-bottom-right-radius: 24px;
-    padding: 2px 12px 3px 0;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding: 2px 10px 3px 0;
 }
 
 /* Highlight */
