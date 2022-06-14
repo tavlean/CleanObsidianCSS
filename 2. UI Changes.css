@@ -130,7 +130,7 @@
 /* Collapse Button */
 body:not(.cc-no-custom-icons) .collapse-icon > svg,
 body:not(.cc-no-custom-icons) .style-settings-collapse-indicator > svg {
-    color: #888888;
+    color: #888 !important;
 }
 
 /* Fold Placeholder */
