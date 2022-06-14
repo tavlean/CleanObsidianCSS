@@ -129,6 +129,10 @@ span.list-bullet::after {
     padding: 5px 10px;
 }
 
+.cm-s-obsidian span.cm-highlight::selection {
+    background-color: #d3f2cf;
+}
+
 /* Double equals formatting of highlights */
 span.cm-formatting.cm-formatting-highlight.cm-highlight.cm-list-3 {
     padding: 5px 0 5px 5px;
