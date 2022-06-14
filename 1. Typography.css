@@ -110,17 +110,17 @@ span.list-bullet::after {
 /* The # Symbol */
 .markdown-source-view.mod-cm6.cm-s-obsidian .cm-hashtag-begin {
     color: #888888 !important;
-    border-top-left-radius: 18px;
-    border-bottom-left-radius: 18px;
-    padding: 5px 0 5px 10px;
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+    padding: 2px 0 3px 10px;
 }
 
 /* Hashtag Text */
 .markdown-source-view.mod-cm6.cm-s-obsidian .cm-hashtag-end {
     color: #444 !important;
-    border-top-right-radius: 18px;
-    border-bottom-right-radius: 18px;
-    padding: 4px 10px 3px 0;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    padding: 2px 12px 3px 0;
 }
 
 /* Highlight */
