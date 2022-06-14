@@ -124,9 +124,15 @@ span.list-bullet::after {
 }
 
 /* Highlight */
-.cm-formatting.cm-formatting-highlight.cm-highlight + .cm-highlight {
+.cm-s-obsidian span.cm-highlight {
     border-radius: 6px !important;
     padding: 5px 10px;
+}
+
+/* Double equals formatting of highlights */
+span.cm-formatting.cm-formatting-highlight.cm-highlight.cm-list-3 {
+    padding: 5px 0 5px 5px;
+    border-radius: 0% !important;
 }
 
 /* == DARK MODE == */
