@@ -127,6 +127,28 @@
 
 /* == Center Area == */
 
+/* Collapse Button */
+body:not(.cc-no-custom-icons) .collapse-icon > svg,
+body:not(.cc-no-custom-icons) .style-settings-collapse-indicator > svg {
+    color: #888888;
+}
+
+/* Fold Placeholder */
+.ͼ1 .cm-foldPlaceholder {
+    padding: 0 8px;
+    font-size: 0px;
+}
+
+/* Custom placeholder */
+.markdown-source-view.mod-cm6 .cm-foldPlaceholder::after {
+    content: "•••";
+    color: #888888;
+    font-size: 16px;
+    background-color: hsl(210, 4%, 92%);
+    padding: 0 8px;
+    border-radius: 6px;
+}
+
 /* Hides border/dividing line below header */
 .view-header {
     box-shadow: none;
