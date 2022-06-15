@@ -28,3 +28,6 @@ Custom CSS for a cleaner and prettier [Obsidian](https://obsidian.md)
 * I'm using Bear Sans UI, the official font of the upcoming version of the Bear editor. I suppose it's ok to use it for personal use, install the beta of panda and the font will be installed.
 * You can use any other font of your choice from Obsidian → Settings → Appearance → Text Font
 * Or choose a font from Style Settings Plugin
+
+### 3rd Party Plugins
+* Install [Hider](https://github.com/kepano/obsidian-hider) Plugin and enable **Hide Title Bar (Frameless Mode)**
