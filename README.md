@@ -2,6 +2,8 @@
 
 Custom CSS for a cleaner and prettier [Obsidian](https://obsidian.md)
 
+_**Note**: This repository is currently outdated, waiting to be updated for the new Obisidian versions_
+
 ![Ribbon Sidebar 2](https://user-images.githubusercontent.com/71072795/168335174-12adb031-e919-463d-aba4-d0b37933da5b.png)
 
 ![Ribbon Only 2](https://user-images.githubusercontent.com/71072795/168335238-fabdefb1-19a6-49de-ba3a-f224f22e03b2.png)
